@@ -143,9 +143,8 @@ with tf.Session(graph=g) as sess:
 
         if (epoch+1) % 1 == 0 or epoch == 1:
             print('=======Epoch: ', epoch, '=======================================')
-            print('생성기 성능 : ', gl)
-            print('분류기 성능 : ', dl)
-            print('생성기와 분류기 선의의 경쟁중...')
+            print('Generator: ', gl)
+            print('Discrimination: ', dl)
 
         if epoch == 0 or (epoch + 1) % 1 == 0:
             sample_noise = random_noise(10)
@@ -160,4 +159,4 @@ with tf.Session(graph=g) as sess:
             plt.savefig('goblin-gan-generated/{}.png'.format(str(epoch).zfill(3)), bbox_inches='tight')
             plt.close(fig)
 
-    print('최적화 완료!')
+    print('End')
