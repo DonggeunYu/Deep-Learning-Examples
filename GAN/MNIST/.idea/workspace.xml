@@ -2,19 +2,109 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="087de39f-fac0-401f-8481-45c39129fe44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CNN/Face-recognition-with-use-my-image/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../CNN/Face-recognition-with-use-my-image/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CNN/MNIST/.idea/Tensorflow_MNIST_CNN.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CNN/MNIST/.idea/Tensorflow_MNIST_CNN.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CNN/MNIST/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CNN/MNIST/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CNN/MNIST/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CNN/MNIST/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CNN/MNIST/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CNN/MNIST/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CNN/MNIST/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../CNN/MNIST/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CNN/MNIST/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../CNN/MNIST/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/goblin-gan-generated/000.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/000.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/goblin-gan-generated/001.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/001.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/goblin-gan-generated/002.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/002.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/003.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/003.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/004.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/004.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/005.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/005.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/006.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/006.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/007.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/007.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/008.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/008.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/009.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/009.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/010.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/010.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/011.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/011.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/012.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/012.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/013.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/013.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/014.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/014.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/015.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/015.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/016.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/016.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/017.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/017.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/018.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/018.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/019.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/019.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/020.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/020.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/021.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/021.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/022.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/022.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/023.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/023.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/024.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/024.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/025.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/025.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/026.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/026.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/027.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/027.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/028.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/028.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/029.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/029.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/030.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/030.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/031.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/031.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/032.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/032.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/033.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/033.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/034.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/034.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/035.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/035.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/036.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/036.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/037.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/037.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/038.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/038.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/039.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/039.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/040.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/040.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/041.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/041.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/042.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/042.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/043.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/043.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/044.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/044.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/045.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/045.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/046.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/046.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/047.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/047.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/048.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/048.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/049.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/049.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/050.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/050.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/051.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/051.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/052.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/052.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/053.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/053.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/054.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/054.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/055.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/055.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/056.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/056.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/057.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/057.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/058.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/058.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/059.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/059.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/060.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/060.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/061.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/061.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/062.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/062.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/063.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/063.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/064.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/064.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/065.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/065.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/066.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/066.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/067.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/067.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/068.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/068.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/069.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/069.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/070.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/070.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/071.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/071.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/072.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/072.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/073.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/073.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/074.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/074.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/075.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/075.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/076.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/076.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/077.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/077.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/078.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/078.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/079.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/079.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/080.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/080.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/081.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/081.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/082.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/082.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/083.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/083.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/084.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/084.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/085.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/085.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/086.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/086.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/087.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/087.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/088.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/088.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/089.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/089.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/090.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/090.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/091.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/091.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/092.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/092.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/093.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/093.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/094.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/094.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/095.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/095.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/096.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/096.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/097.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/097.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/098.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/098.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goblin-gan-generated/099.png" beforeDir="false" afterPath="$PROJECT_DIR$/goblin-gan-generated/099.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,74 +119,103 @@
     <session id="-1300099448">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="2" />
           <entry key="png" value="1" />
-          <entry key="py" value="2" />
+          <entry key="py" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="1" />
           <entry key="Markdown" value="2" />
-          <entry key="Python" value="2" />
+          <entry key="Python" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3456" />
+          <entry key="Python Console" value="1" />
+          <entry key="py" value="3648" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3456" />
+          <entry key="Python" value="3649" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="MNIST" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="161" lean-forward="true" selection-start-line="152" selection-start-column="12" selection-end-line="161" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-                <marker date="1534056257786" expanded="true" signature="3974:3979" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/train.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-                <marker date="1534056820691" expanded="true" signature="262:263" ph="..." />
-                <marker date="1534056820691" expanded="true" signature="262:267" ph="..." />
-                <marker date="1534056820691" expanded="true" signature="695:696" ph="..." />
-                <marker date="1534056820691" expanded="true" signature="1131:1186" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Model.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="490">
+                  <caret line="140" selection-start-line="140" selection-end-line="140" />
+                  <folding>
+                    <element signature="e#0#23#0" expanded="true" />
+                    <marker date="1534070320199" expanded="true" signature="4031:4036" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/train.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1095">
+                  <caret line="77" column="54" selection-start-line="77" selection-start-column="54" selection-end-line="77" selection-end-column="54" />
+                  <folding>
+                    <element signature="e#0#23#0" expanded="true" />
+                    <marker date="1534071134670" expanded="true" signature="291:292" ph="..." />
+                    <marker date="1534071134670" expanded="true" signature="291:296" ph="..." />
+                    <marker date="1534071134670" expanded="true" signature="724:725" ph="..." />
+                    <marker date="1534071134670" expanded="true" signature="1160:1215" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/train.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="311">
+                  <caret line="54" column="58" selection-start-line="54" selection-start-column="58" selection-end-line="54" selection-end-column="58" />
+                  <folding>
+                    <element signature="e#0#23#0" expanded="true" />
+                    <marker date="1534071134670" expanded="true" signature="291:292" ph="..." />
+                    <marker date="1534071134670" expanded="true" signature="291:296" ph="..." />
+                    <marker date="1534071134670" expanded="true" signature="724:725" ph="..." />
+                    <marker date="1534071134670" expanded="true" signature="1160:1215" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -113,6 +232,8 @@
       <find>0.</find>
       <find>train_y</find>
       <find>batch_y</find>
+      <find>total_epochs</find>
+      <find>total_batchs</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -132,11 +253,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="843" />
-    <option name="y" value="22" />
-    <option name="width" value="837" />
-    <option name="height" value="908" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -162,6 +281,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -176,7 +296,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.train">
     <configuration name="Model" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MNIST" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -221,8 +341,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MNIST" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Model" />
+      <item itemvalue="Python.train" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.train" />
         <item itemvalue="Python.Model" />
       </list>
     </recent_temporary>
@@ -240,32 +384,41 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="843" y="22" width="837" height="908" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2389937" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49929675" visible="true" weight="0.11721612" />
+      <window_info id="Structure" order="1" sideWeight="0.50076103" side_tool="true" weight="0.11599512" />
+      <window_info id="Favorites" order="2" sideWeight="0.5007032" side_tool="true" weight="0.11599512" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32965687" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39950982" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32959184" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32959184" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32965687" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32959184" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.2744898" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" x="0" y="0" width="159" height="708" id="Documentation" order="5" side_tool="true" weight="0.32955974" />
+      <window_info anchor="right" x="0" y="0" width="159" height="708" id="Documentation" order="5" side_tool="true" weight="0.32905984" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,7 +432,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/train.py</url>
-          <line>16</line>
+          <line>17</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
@@ -289,17 +442,6 @@
     <entry file="file://$PROJECT_DIR$/goblin-gan-generated/000.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="161" lean-forward="true" selection-start-line="152" selection-start-column="12" selection-end-line="161" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-            <marker date="1534056257786" expanded="true" signature="3974:3979" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -308,16 +450,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train.py">
+    <entry file="file://$PROJECT_DIR$/Model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+        <state relative-caret-position="490">
+          <caret line="140" selection-start-line="140" selection-end-line="140" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
-            <marker date="1534056820691" expanded="true" signature="262:263" ph="..." />
-            <marker date="1534056820691" expanded="true" signature="262:267" ph="..." />
-            <marker date="1534056820691" expanded="true" signature="695:696" ph="..." />
-            <marker date="1534056820691" expanded="true" signature="1131:1186" ph="..." />
+            <marker date="1534070320199" expanded="true" signature="4031:4036" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="54" column="58" selection-start-line="54" selection-start-column="58" selection-end-line="54" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <marker date="1534071134670" expanded="true" signature="291:292" ph="..." />
+            <marker date="1534071134670" expanded="true" signature="291:296" ph="..." />
+            <marker date="1534071134670" expanded="true" signature="724:725" ph="..." />
+            <marker date="1534071134670" expanded="true" signature="1160:1215" ph="..." />
           </folding>
         </state>
       </provider>
