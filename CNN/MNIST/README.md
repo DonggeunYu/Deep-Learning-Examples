@@ -1,4 +1,4 @@
-# Tensorflow_MNIST_CNN
+# MNIST CNN
 
  ## Summary
 

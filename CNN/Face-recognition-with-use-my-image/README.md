@@ -1,4 +1,4 @@
-# Tensorflow_Face_recognition_CNN
+# Face recognition with use my image CNN
 ## Summary
 CNN(Convolution Neural Network)를 사용하여 얼굴을 인식하여 분류하는 모델을 만들고자 한다.
 
@@ -30,7 +30,7 @@ Input.py에서는 Model이 호출하게 되면 로컬에 저장된 이미지를 
 
 
 
-### Import
+### Library
 
 PIL, Numpy, OpenCV, os, random 라이브러리를 사용한다.
 

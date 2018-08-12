@@ -56,4 +56,4 @@ with tf.Session() as sess:
         trainingData, Y = mnist.train.next_batch(64)
         sess.run(train_step, feed_dict={X: trainingData, Y_Label: Y})
         if i % 100 == 0:
-            print(sess.run(accuracy, feed_dict={X: mnist.test.images, Y_Label: mnist.test.labels}))
+            print(sess.run([accuracy, OutputLayer], feed_dict={X: mnist.test.images, Y_Label: mnist.test.labels}))

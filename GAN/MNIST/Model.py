@@ -5,8 +5,7 @@ import matplotlib.pyplot as plt
 from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets('MNIST_data/')
 
-train_x = mnist.train.images
-train_y = mnist.train.labels
+
 
 print('Check: ', train_x.shape, train_y.shape)
 
