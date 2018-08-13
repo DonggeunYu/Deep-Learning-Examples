@@ -7,7 +7,7 @@ mnist = input_data.read_data_sets('MNIST_data/')
 
 train_x = mnist.train.images
 
-total_epochs = 100
+total_epochs = 1000
 batch_size = 100
 learning_rate = 2e-4
 
@@ -76,14 +76,16 @@ with tf.Session() as sess:
         print('=======Epoch: ', epoch, '=======================================')
         print('Generator: ', gl)
         print('Discrimination: ', dl)
-        sample_noise = Random_noise(10)
-        generated = sess.run(fake_x, feed_dict={Z: sample_noise})
-        fig, ax = plt.subplots(1, 10, figsize=(10, 1))
-        for i in range(10):
-            ax[i].set_axis_off()
-            ax[i].imshow(np.reshape(generated[i], (28, 28)))
 
-        plt.savefig('goblin-gan-generated/{}.png'.format(str(epoch).zfill(3)), bbox_inches='tight')
-        plt.close(fig)
+        if epoch % 10 == 0:
+            sample_noise = Random_noise(10)
+            generated = sess.run(fake_x, feed_dict={Z: sample_noise})
+            fig, ax = plt.subplots(1, 10, figsize=(10, 1))
+            for i in range(10):
+                ax[i].set_axis_off()
+                ax[i].imshow(np.reshape(generated[i], (28, 28)))
+
+            plt.savefig('goblin-gan-generated/{}.png'.format(str(epoch).zfill(3)), bbox_inches='tight')
+            plt.close(fig)
 
     print('End')
