@@ -19,38 +19,16 @@ def generator(z, reuse=False):
 
     if reuse==False:
         with tf.variable_scope(name_or_scope='Gen') as scope:
-            gw1 = tf.get_variable(name='w1',
-                                  shape=[128, 256],
-                                  initializer=tf.random_normal_initializer(mean=0.0, stddev=0.01))
-
-            gb1 = tf.get_variable(name='b1',
-                                 shape=[256],
-                                 initializer=tf.random_normal_initializer(mean=0.0, stddev=0.01))
-
-            gw2 = tf.get_variable(name='w2',
-                                  shape=[256, 784],
-                                  initializer=tf.random_normal_initializer(mean=0.0, stddev=0.01))
-
-            gb2 = tf.get_variable(name='b2',
-                                 shape=[784],
-                                 initializer=tf.random_normal_initializer(mean=0.0, stddev=0.01))
+            gw1 = tf.Variable(tf.truncated_normal(shape=[128, 256], stddev=0.1))
+            gb1 = tf.Variable(tf.truncated_normal(shape=[256], stddev=0.1))
+            gw2 = tf.Variable(tf.truncated_normal(shape=[256, 784], stddev=0.1))
+            gb2 = tf.Variable(tf.truncated_normal(shape=[784], stddev=0.1))
     else:
         with tf.variable_scope(name_or_scope='Gen', reuse = True) as scope :
-            gw1 = tf.get_variable(name='w1',
-                                  shape=[128, 256],
-                                  initializer=tf.random_normal_initializer(mean=0.0, stddev=0.01))
-
-            gb1 = tf.get_variable(name='b1',
-                                 shape=[256],
-                                 initializer=tf.random_normal_initializer(mean=0.0, stddev=0.01))
-
-            gw2 = tf.get_variable(name='w2',
-                                  shape=[256, 784],
-                                  initializer=tf.random_normal_initializer(mean=0.0, stddev=0.01))
-
-            gb2 = tf.get_variable(name='b2',
-                                 shape=[784],
-                                 initializer=tf.random_normal_initializer(mean=0.0, stddev=0.01))
+            gw1 = tf.Variable(tf.truncated_normal(shape=[128, 256], stddev=0.1))
+            gb1 = tf.Variable(tf.truncated_normal(shape=[256], stddev=0.1))
+            gw2 = tf.Variable(tf.truncated_normal(shape=[256, 784], stddev=0.1))
+            gb2 = tf.Variable(tf.truncated_normal(shape=[784], stddev=0.1))
 
     hidden = tf.nn.relu(tf.matmul(z, gw1) + gb1)
     output = tf.nn.sigmoid(tf.matmul(hidden, gw2) + gb2)
@@ -62,32 +40,16 @@ def discriminator(x, reuse=False):
 
     if reuse==False:
         with tf.variable_scope(name_or_scope='Dis') as scope :
-            dw1 = tf.get_variable(name='w1',
-                                  shape=[784, 256],
-                                  initializer=tf.random_normal_initializer(0.0, 0.01))
-            db1 = tf.get_variable(name='b1',
-                                  shape=[256],
-                                  initializer=tf.random_normal_initializer(0.0, 0.01))
-            dw2 = tf.get_variable(name='w2',
-                                  shape=[256, 1],
-                                  initializer=tf.random_normal_initializer(0.0, 0.01))
-            db2 = tf.get_variable(name='b2',
-                                  shape=[1],
-                                  initializer=tf.random_normal_initializer(0.0, 0.01))
+            dw1 = tf.Variable(tf.truncated_normal(shape=[784, 256], stddev=0.1))
+            db1 = tf.Variable(tf.truncated_normal(shape=[256], stddev=0.1))
+            dw2 = tf.Variable(tf.truncated_normal(shape=[256, 1], stddev=0.1))
+            db2 = tf.Variable(tf.truncated_normal(shape=[1], stddev=0.1))
     else:
         with tf.variable_scope(name_or_scope='Dis', reuse=True) as scope:
-            dw1 = tf.get_variable(name='w1',
-                                  shape=[784, 256],
-                                  initializer=tf.random_normal_initializer(0.0, 0.01))
-            db1 = tf.get_variable(name='b1',
-                                  shape=[256],
-                                  initializer=tf.random_normal_initializer(0.0, 0.01))
-            dw2 = tf.get_variable(name='w2',
-                                  shape=[256, 1],
-                                  initializer=tf.random_normal_initializer(0.0, 0.01))
-            db2 = tf.get_variable(name='b2',
-                                  shape=[1],
-                                  initializer=tf.random_normal_initializer(0.0, 0.01))
+            dw1 = tf.Variable(tf.truncated_normal(shape=[784, 256], stddev=0.1))
+            db1 = tf.Variable(tf.truncated_normal(shape=[256], stddev=0.1))
+            dw2 = tf.Variable(tf.truncated_normal(shape=[256, 1], stddev=0.1))
+            db2 = tf.Variable(tf.truncated_normal(shape=[1], stddev=0.1))
 
     hidden = tf.nn.relu(tf.matmul(x, dw1) + db1)
     output = tf.nn.sigmoid(tf.matmul(hidden, dw2) + db2)
