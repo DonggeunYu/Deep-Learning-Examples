@@ -97,7 +97,9 @@ print('one hot encoding vector size is ', one_hot_vec_size)
 
 ## Model
 
+모델 레이어는 다음과 같다.
 
+![](https://raw.githubusercontent.com/Yudonggeun/Deep-Learning-Examples/master/LSTM/나비야/model.png)
 
 ~~~~python
 # 모델 구성
@@ -118,4 +120,43 @@ for epoch_idx in range(num_epochs):
     model.fit(x_train, y_train, epochs=1, batch_size=1, verbose=2, shuffle=False, callbacks=[history])
     model.reset_states()
 ~~~~
+
+
+
+## Evaluation
+
+
+
+~~~python
+pred_count = 50
+
+seq_out = ['g8', 'e8', 'e4', 'f8']
+pred_out = model.predict(x_train, batch_size=1)
+
+for i in range(pred_count):
+    idx = np.argmax(pred_out[i])
+    seq_out.append(idx2code[idx])
+
+print('one step prediction: ', seq_out)
+
+# 곡 전체 예측
+seq_in = ['g8', 'e8', 'e4', 'f8']
+seq_out = seq_in
+seq_in_feature = []
+
+for i in range(pred_count):
+    sample_in = np.array(seq_in)
+    sample_in = np.reshape(sample_in, (1, 4, 2)) # 샘플 수, 타입스텝 수, 속성 수
+    pred_out = model.predict(sample_in)
+    idx = np.argmax(pred_out)
+    seq_out.append(idx2code[idx])
+
+    features = code2features(idx2code[idx])
+    seq_in_feature.append(features)
+    seq_in_feature.pop(0)
+
+model.reset_states()
+
+print('full song prediction: ', seq_out)
+~~~
 
