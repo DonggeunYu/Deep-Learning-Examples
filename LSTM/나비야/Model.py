@@ -87,7 +87,8 @@ for epoch_idx in range(num_epochs):
     print('epochs: ', str(epoch_idx))
     model.fit(x_train, y_train, epochs=1, batch_size=1, verbose=2, shuffle=False, callbacks=[history])
     model.reset_states()
-    plot_model(model, to_file='model.png', show_layer_names=True, show_shapes=True)
+
+plot_model(model, to_file='model.png', show_layer_names=True, show_shapes=True)
 
 
 
