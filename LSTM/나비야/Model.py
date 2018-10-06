@@ -98,7 +98,7 @@ plt.legend(['train'], loc='upper left')
 plt.show()
 
 # 모델 평가하기
-scores = model.evaluate(x_train, y_train)
+scores = model.evaluate(x_train, y_train, batch_size=1)
 print('%s: %.2f%%' %(model.metrics_names[1], scores[1]*100))
 model.reset_states()
 
@@ -112,14 +112,19 @@ for i in range(pred_count):
     seq_out.append(idx2code[idx])
 
 print('one step prediction: ', seq_out)
+model.reset_states()
 
 # 곡 전체 예측
 seq_in = ['g8', 'e8', 'e4', 'f8']
 seq_out = seq_in
 seq_in_feature = []
 
+for si in seq_in:
+    features = code2features(si)
+    seq_in_feature.append(features)
+
 for i in range(pred_count):
-    sample_in = np.array(seq_in)
+    sample_in = np.array(seq_in_feature)
     sample_in = np.reshape(sample_in, (1, 4, 2)) # 샘플 수, 타입스텝 수, 속성 수
     pred_out = model.predict(sample_in)
     idx = np.argmax(pred_out)
